@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LayoutActivity">
+
+    <RelativeLayout
+        android:id="@+id/gridviewdata"
+        android:layout_width="200dp"
+        android:layout_height="219dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="9dp"
+        android:background="#fff">
+
+        <TextView
+            android:id="@+id/items"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginBottom="39dp"
+            android:text="Vagabond sack"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/images"
+            android:layout_width="170dp"
+            android:layout_height="130dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="21dp"
+            android:src="@drawable/bag" />
+
+        <TextView
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="186dp"
+            android:text="$120"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/gridviewdata1"
+        android:layout_width="200dp"
+        android:layout_height="219dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="9dp"
+        android:background="#fff">
+
+        <TextView
+            android:id="@+id/items1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginBottom="44dp"
+            android:text="Stella sungglass"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/images1"
+            android:layout_width="170dp"
+            android:layout_height="130dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="21dp"
+            android:src="@drawable/sunglass" />
+
+        <TextView
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="180dp"
+            android:text="$58"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/gridviewdata2"
+        android:layout_width="200dp"
+        android:layout_height="219dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="230dp"
+        android:background="#fff">
+
+        <TextView
+            android:id="@+id/items2"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginBottom="44dp"
+            android:text="Whitney Belt"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/images2"
+            android:layout_width="170dp"
+            android:layout_height="130dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="21dp"
+            android:src="@drawable/belt" />
+
+        <TextView
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="180dp"
+            android:text="$35"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/gridviewdata3"
+        android:layout_width="200dp"
+        android:layout_height="219dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="230dp"
+        android:background="#fff">
+
+        <TextView
+            android:id="@+id/items3"
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginBottom="44dp"
+            android:text="Garden Strand"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/images3"
+            android:layout_width="170dp"
+            android:layout_height="130dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="21dp"
+            android:src="@drawable/ring" />
+
+        <TextView
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="180dp"
+            android:text="$98"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/gridviewdat4"
+        android:layout_width="200dp"
+        android:layout_height="219dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="450dp"
+        android:background="#fff">
+
+        <TextView
+            android:id="@+id/items4"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginBottom="44dp"
+            android:text="Things"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/images4"
+            android:layout_width="170dp"
+            android:layout_height="130dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="21dp"
+            android:src="@drawable/thing" />
+
+        <TextView
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="180dp"
+            android:text="$99"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/gridviewdata5"
+        android:layout_width="200dp"
+        android:layout_height="219dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="450dp"
+        android:background="#fff">
+
+        <TextView
+            android:id="@+id/items5"
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginBottom="44dp"
+            android:text="Socks"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/images5"
+            android:layout_width="170dp"
+            android:layout_height="130dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="21dp"
+            android:src="@drawable/short123" />
+
+        <TextView
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="180dp"
+            android:text="$5"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
